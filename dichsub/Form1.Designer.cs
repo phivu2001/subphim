@@ -37,6 +37,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.chkP2 = new System.Windows.Forms.CheckBox();
+            this.chkP1 = new System.Windows.Forms.CheckBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,11 +125,72 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(377, 229);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.TabIndex = 8;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(495, 229);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // chkP2
+            // 
+            this.chkP2.AutoSize = true;
+            this.chkP2.Location = new System.Drawing.Point(280, 317);
+            this.chkP2.Name = "chkP2";
+            this.chkP2.Size = new System.Drawing.Size(70, 20);
+            this.chkP2.TabIndex = 10;
+            this.chkP2.Text = "Phan 2";
+            this.chkP2.UseVisualStyleBackColor = true;
+            // 
+            // chkP1
+            // 
+            this.chkP1.AutoSize = true;
+            this.chkP1.Location = new System.Drawing.Point(280, 281);
+            this.chkP1.Name = "chkP1";
+            this.chkP1.Size = new System.Drawing.Size(70, 20);
+            this.chkP1.TabIndex = 11;
+            this.chkP1.Text = "Phan 1";
+            this.chkP1.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(377, 278);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(250, 36);
+            this.textBox4.TabIndex = 12;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(633, 278);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(79, 36);
+            this.button7.TabIndex = 13;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 572);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.chkP1);
+            this.Controls.Add(this.chkP2);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button4);
@@ -151,6 +218,12 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.CheckBox chkP1;
+        private System.Windows.Forms.CheckBox chkP2;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
 
